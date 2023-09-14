@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF3EBDCE2AB2CCB300445E62 /* watchos-healthkit-demo Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CF3EBDCD2AB2CCB300445E62 /* watchos-healthkit-demo Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CF3EBDD32AB2CCB300445E62 /* watchos_healthkit_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EBDD22AB2CCB300445E62 /* watchos_healthkit_demoApp.swift */; };
+		CF3EBDD52AB2CCB300445E62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EBDD42AB2CCB300445E62 /* ContentView.swift */; };
+		CF3EBDD72AB2CCB500445E62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3EBDD62AB2CCB500445E62 /* Assets.xcassets */; };
+		CF3EBDDA2AB2CCB600445E62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF3EBDD92AB2CCB600445E62 /* Preview Assets.xcassets */; };
+		CF3EBDE42AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EBDE32AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppTests.swift */; };
+		CF3EBDEE2AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EBDED2AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITests.swift */; };
+		CF3EBDF02AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EBDEF2AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF3EBDCF2AB2CCB300445E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3EBDC12AB2CCB300445E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3EBDCC2AB2CCB300445E62;
+			remoteInfo = "watchos-healthkit-demo Watch App";
+		};
+		CF3EBDE02AB2CCB600445E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3EBDC12AB2CCB300445E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3EBDCC2AB2CCB300445E62;
+			remoteInfo = "watchos-healthkit-demo Watch App";
+		};
+		CF3EBDEA2AB2CCB600445E62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF3EBDC12AB2CCB300445E62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF3EBDCC2AB2CCB300445E62;
+			remoteInfo = "watchos-healthkit-demo Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF3EBDF62AB2CCB600445E62 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CF3EBDCE2AB2CCB300445E62 /* watchos-healthkit-demo Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CF3EBDC72AB2CCB300445E62 /* watchos-healthkit-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchos-healthkit-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3EBDCD2AB2CCB300445E62 /* watchos-healthkit-demo Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchos-healthkit-demo Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3EBDD22AB2CCB300445E62 /* watchos_healthkit_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_healthkit_demoApp.swift; sourceTree = "<group>"; };
+		CF3EBDD42AB2CCB300445E62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF3EBDD62AB2CCB500445E62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF3EBDD92AB2CCB600445E62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF3EBDDF2AB2CCB600445E62 /* watchos-healthkit-demo Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchos-healthkit-demo Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3EBDE32AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_healthkit_demo_Watch_AppTests.swift; sourceTree = "<group>"; };
+		CF3EBDE92AB2CCB600445E62 /* watchos-healthkit-demo Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchos-healthkit-demo Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF3EBDED2AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_healthkit_demo_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		CF3EBDEF2AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_healthkit_demo_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF3EBDCA2AB2CCB300445E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EBDDC2AB2CCB600445E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EBDE62AB2CCB600445E62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF3EBDC02AB2CCB300445E62 = {
+			isa = PBXGroup;
+			children = (
+				CF3EBDD12AB2CCB300445E62 /* watchos-healthkit-demo Watch App */,
+				CF3EBDE22AB2CCB600445E62 /* watchos-healthkit-demo Watch AppTests */,
+				CF3EBDEC2AB2CCB600445E62 /* watchos-healthkit-demo Watch AppUITests */,
+				CF3EBDC82AB2CCB300445E62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF3EBDC82AB2CCB300445E62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF3EBDC72AB2CCB300445E62 /* watchos-healthkit-demo.app */,
+				CF3EBDCD2AB2CCB300445E62 /* watchos-healthkit-demo Watch App.app */,
+				CF3EBDDF2AB2CCB600445E62 /* watchos-healthkit-demo Watch AppTests.xctest */,
+				CF3EBDE92AB2CCB600445E62 /* watchos-healthkit-demo Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF3EBDD12AB2CCB300445E62 /* watchos-healthkit-demo Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				CF3EBDD22AB2CCB300445E62 /* watchos_healthkit_demoApp.swift */,
+				CF3EBDD42AB2CCB300445E62 /* ContentView.swift */,
+				CF3EBDD62AB2CCB500445E62 /* Assets.xcassets */,
+				CF3EBDD82AB2CCB600445E62 /* Preview Content */,
+			);
+			path = "watchos-healthkit-demo Watch App";
+			sourceTree = "<group>";
+		};
+		CF3EBDD82AB2CCB600445E62 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF3EBDD92AB2CCB600445E62 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CF3EBDE22AB2CCB600445E62 /* watchos-healthkit-demo Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3EBDE32AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppTests.swift */,
+			);
+			path = "watchos-healthkit-demo Watch AppTests";
+			sourceTree = "<group>";
+		};
+		CF3EBDEC2AB2CCB600445E62 /* watchos-healthkit-demo Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF3EBDED2AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITests.swift */,
+				CF3EBDEF2AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "watchos-healthkit-demo Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF3EBDC62AB2CCB300445E62 /* watchos-healthkit-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3EBDF72AB2CCB600445E62 /* Build configuration list for PBXNativeTarget "watchos-healthkit-demo" */;
+			buildPhases = (
+				CF3EBDC52AB2CCB300445E62 /* Resources */,
+				CF3EBDF62AB2CCB600445E62 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3EBDD02AB2CCB300445E62 /* PBXTargetDependency */,
+			);
+			name = "watchos-healthkit-demo";
+			productName = "watchos-healthkit-demo";
+			productReference = CF3EBDC72AB2CCB300445E62 /* watchos-healthkit-demo.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		CF3EBDCC2AB2CCB300445E62 /* watchos-healthkit-demo Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3EBDF32AB2CCB600445E62 /* Build configuration list for PBXNativeTarget "watchos-healthkit-demo Watch App" */;
+			buildPhases = (
+				CF3EBDC92AB2CCB300445E62 /* Sources */,
+				CF3EBDCA2AB2CCB300445E62 /* Frameworks */,
+				CF3EBDCB2AB2CCB300445E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchos-healthkit-demo Watch App";
+			productName = "watchos-healthkit-demo Watch App";
+			productReference = CF3EBDCD2AB2CCB300445E62 /* watchos-healthkit-demo Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF3EBDDE2AB2CCB600445E62 /* watchos-healthkit-demo Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3EBDFA2AB2CCB600445E62 /* Build configuration list for PBXNativeTarget "watchos-healthkit-demo Watch AppTests" */;
+			buildPhases = (
+				CF3EBDDB2AB2CCB600445E62 /* Sources */,
+				CF3EBDDC2AB2CCB600445E62 /* Frameworks */,
+				CF3EBDDD2AB2CCB600445E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3EBDE12AB2CCB600445E62 /* PBXTargetDependency */,
+			);
+			name = "watchos-healthkit-demo Watch AppTests";
+			productName = "watchos-healthkit-demo Watch AppTests";
+			productReference = CF3EBDDF2AB2CCB600445E62 /* watchos-healthkit-demo Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF3EBDE82AB2CCB600445E62 /* watchos-healthkit-demo Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF3EBDFD2AB2CCB600445E62 /* Build configuration list for PBXNativeTarget "watchos-healthkit-demo Watch AppUITests" */;
+			buildPhases = (
+				CF3EBDE52AB2CCB600445E62 /* Sources */,
+				CF3EBDE62AB2CCB600445E62 /* Frameworks */,
+				CF3EBDE72AB2CCB600445E62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3EBDEB2AB2CCB600445E62 /* PBXTargetDependency */,
+			);
+			name = "watchos-healthkit-demo Watch AppUITests";
+			productName = "watchos-healthkit-demo Watch AppUITests";
+			productReference = CF3EBDE92AB2CCB600445E62 /* watchos-healthkit-demo Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF3EBDC12AB2CCB300445E62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CF3EBDC62AB2CCB300445E62 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CF3EBDCC2AB2CCB300445E62 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CF3EBDDE2AB2CCB600445E62 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CF3EBDCC2AB2CCB300445E62;
+					};
+					CF3EBDE82AB2CCB600445E62 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CF3EBDCC2AB2CCB300445E62;
+					};
+				};
+			};
+			buildConfigurationList = CF3EBDC42AB2CCB300445E62 /* Build configuration list for PBXProject "watchos-healthkit-demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF3EBDC02AB2CCB300445E62;
+			productRefGroup = CF3EBDC82AB2CCB300445E62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF3EBDC62AB2CCB300445E62 /* watchos-healthkit-demo */,
+				CF3EBDCC2AB2CCB300445E62 /* watchos-healthkit-demo Watch App */,
+				CF3EBDDE2AB2CCB600445E62 /* watchos-healthkit-demo Watch AppTests */,
+				CF3EBDE82AB2CCB600445E62 /* watchos-healthkit-demo Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF3EBDC52AB2CCB300445E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EBDCB2AB2CCB300445E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3EBDDA2AB2CCB600445E62 /* Preview Assets.xcassets in Resources */,
+				CF3EBDD72AB2CCB500445E62 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EBDDD2AB2CCB600445E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EBDE72AB2CCB600445E62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF3EBDC92AB2CCB300445E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3EBDD52AB2CCB300445E62 /* ContentView.swift in Sources */,
+				CF3EBDD32AB2CCB300445E62 /* watchos_healthkit_demoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EBDDB2AB2CCB600445E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3EBDE42AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3EBDE52AB2CCB600445E62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF3EBDF02AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITestsLaunchTests.swift in Sources */,
+				CF3EBDEE2AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF3EBDD02AB2CCB300445E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3EBDCC2AB2CCB300445E62 /* watchos-healthkit-demo Watch App */;
+			targetProxy = CF3EBDCF2AB2CCB300445E62 /* PBXContainerItemProxy */;
+		};
+		CF3EBDE12AB2CCB600445E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3EBDCC2AB2CCB300445E62 /* watchos-healthkit-demo Watch App */;
+			targetProxy = CF3EBDE02AB2CCB600445E62 /* PBXContainerItemProxy */;
+		};
+		CF3EBDEB2AB2CCB600445E62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF3EBDCC2AB2CCB300445E62 /* watchos-healthkit-demo Watch App */;
+			targetProxy = CF3EBDEA2AB2CCB600445E62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CF3EBDF12AB2CCB600445E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF3EBDF22AB2CCB600445E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CF3EBDF42AB2CCB600445E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchos-healthkit-demo Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "watchos-healthkit-demo";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-healthkit-demo.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		CF3EBDF52AB2CCB600445E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchos-healthkit-demo Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "watchos-healthkit-demo";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-healthkit-demo.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		CF3EBDF82AB2CCB600445E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				INFOPLIST_KEY_CFBundleDisplayName = "watchos-healthkit-demo";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-healthkit-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CF3EBDF92AB2CCB600445E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				INFOPLIST_KEY_CFBundleDisplayName = "watchos-healthkit-demo";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-healthkit-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF3EBDFB2AB2CCB600445E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-healthkit-demo-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchos-healthkit-demo Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchos-healthkit-demo Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		CF3EBDFC2AB2CCB600445E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-healthkit-demo-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchos-healthkit-demo Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchos-healthkit-demo Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		CF3EBDFE2AB2CCB600445E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-healthkit-demo-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watchos-healthkit-demo Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		CF3EBDFF2AB2CCB600445E62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V7GP7Z6355;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.kitamura.watchos-healthkit-demo-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watchos-healthkit-demo Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF3EBDC42AB2CCB300445E62 /* Build configuration list for PBXProject "watchos-healthkit-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3EBDF12AB2CCB600445E62 /* Debug */,
+				CF3EBDF22AB2CCB600445E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3EBDF32AB2CCB600445E62 /* Build configuration list for PBXNativeTarget "watchos-healthkit-demo Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3EBDF42AB2CCB600445E62 /* Debug */,
+				CF3EBDF52AB2CCB600445E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3EBDF72AB2CCB600445E62 /* Build configuration list for PBXNativeTarget "watchos-healthkit-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3EBDF82AB2CCB600445E62 /* Debug */,
+				CF3EBDF92AB2CCB600445E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3EBDFA2AB2CCB600445E62 /* Build configuration list for PBXNativeTarget "watchos-healthkit-demo Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3EBDFB2AB2CCB600445E62 /* Debug */,
+				CF3EBDFC2AB2CCB600445E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF3EBDFD2AB2CCB600445E62 /* Build configuration list for PBXNativeTarget "watchos-healthkit-demo Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF3EBDFE2AB2CCB600445E62 /* Debug */,
+				CF3EBDFF2AB2CCB600445E62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF3EBDC12AB2CCB300445E62 /* Project object */;
+}
