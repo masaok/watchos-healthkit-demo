@@ -2,20 +2,38 @@
 //  ContentView.swift
 //  watchos-healthkit-demo Watch App
 //
-//  Created by keckadmin on 9/13/23.
-//
 
 import SwiftUI
 
 struct ContentView: View {
+    @State private var steps: Double = 0
+    let manager = HealthDataManager()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Steps Today")
+                .font(.headline)
+            Text("\(Int(steps))")
+                .font(.largeTitle)
+                .padding()
+            Button("Refresh") {
+                loadSteps()
+            }
+            .padding()
         }
-        .padding()
+        .onAppear {
+            loadSteps()
+        }
+    }
+    
+    func loadSteps() {
+        manager.requestAuthorization { success in
+            if success {
+                manager.fetchTodayStepCount { newSteps in
+                    self.steps = newSteps
+                }
+            }
+        }
     }
 }
 

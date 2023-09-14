@@ -15,6 +15,7 @@
 		CF3EBDE42AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EBDE32AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppTests.swift */; };
 		CF3EBDEE2AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EBDED2AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITests.swift */; };
 		CF3EBDF02AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EBDEF2AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITestsLaunchTests.swift */; };
+		CF3EBE022AB2CE3700445E62 /* HealthDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3EBE012AB2CE3700445E62 /* HealthDataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		CF3EBDE92AB2CCB600445E62 /* watchos-healthkit-demo Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchos-healthkit-demo Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF3EBDED2AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_healthkit_demo_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		CF3EBDEF2AB2CCB600445E62 /* watchos_healthkit_demo_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchos_healthkit_demo_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF3EBE002AB2CD3600445E62 /* watchos-healthkit-demo Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "watchos-healthkit-demo Watch App.entitlements"; sourceTree = "<group>"; };
+		CF3EBE012AB2CE3700445E62 /* HealthDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +121,9 @@
 		CF3EBDD12AB2CCB300445E62 /* watchos-healthkit-demo Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				CF3EBE002AB2CD3600445E62 /* watchos-healthkit-demo Watch App.entitlements */,
 				CF3EBDD22AB2CCB300445E62 /* watchos_healthkit_demoApp.swift */,
+				CF3EBE012AB2CE3700445E62 /* HealthDataManager.swift */,
 				CF3EBDD42AB2CCB300445E62 /* ContentView.swift */,
 				CF3EBDD62AB2CCB500445E62 /* Assets.xcassets */,
 				CF3EBDD82AB2CCB600445E62 /* Preview Content */,
@@ -311,6 +316,7 @@
 			files = (
 				CF3EBDD52AB2CCB300445E62 /* ContentView.swift in Sources */,
 				CF3EBDD32AB2CCB300445E62 /* watchos_healthkit_demoApp.swift in Sources */,
+				CF3EBE022AB2CE3700445E62 /* HealthDataManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "watchos-healthkit-demo Watch App/watchos-healthkit-demo Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"watchos-healthkit-demo Watch App/Preview Content\"";
@@ -473,6 +480,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "watchos-healthkit-demo";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We would like to read your step count data.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -496,6 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "watchos-healthkit-demo Watch App/watchos-healthkit-demo Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"watchos-healthkit-demo Watch App/Preview Content\"";
@@ -503,6 +512,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "watchos-healthkit-demo";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We would like to read your step count data.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
