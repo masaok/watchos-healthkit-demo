@@ -481,6 +481,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "watchos-healthkit-demo";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "We would like to read your step count data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We would like to read your updated step count data.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -513,6 +514,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "watchos-healthkit-demo";
 				INFOPLIST_KEY_NSHealthShareUsageDescription = "We would like to read your step count data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We would like to read your updated step count data.";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
