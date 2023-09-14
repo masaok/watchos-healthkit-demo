@@ -17,6 +17,7 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .padding()
             Button("Refresh") {
+                print("button pressed")
                 loadSteps()
             }
             .padding()
@@ -29,9 +30,13 @@ struct ContentView: View {
     func loadSteps() {
         manager.requestAuthorization { success in
             if success {
+                print("Authorization granted")
                 manager.fetchTodayStepCount { newSteps in
+                    print("newSteps: \(Int(newSteps))")
                     self.steps = newSteps
                 }
+            } else {
+                print("Authorization denied or failed")
             }
         }
     }
